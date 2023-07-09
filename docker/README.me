@@ -1,0 +1,126 @@
+# Docker Bash Aliases
+
+This bash script provides a collection of aliases for common Docker and Docker Compose commands, making it easier and quicker to interact with Docker from the command line. The aliases cover various areas such as containers, images, networks, volumes, monitoring, and Docker Compose.
+
+## Usage
+
+1. Clone or download the `docker_aliases.sh` script.
+2. Make the script executable:
+   ```bash
+   chmod +x docker_aliases.sh
+   ```
+3. Run the script to activate the aliases:
+   ```bash
+   ./docker_aliases.sh
+   ```
+   Note: The aliases will be available only in the current terminal session. If you want to use them in every new session, you can add the command source ~/.bashrc to your shell's profile file (e.g., ~/.bash_profile, ~/.bashrc, or ~/.profile).
+
+## Aliases
+
+### Docker CLI Aliases
+ - `d` - Docker CLI
+
+- `di` - List Docker images
+
+- `dps` - List running Docker containers
+
+- `dci` - List all Docker containers
+
+- `dce` - Execute command in a running Docker container
+
+- `dlogs` - Show logs of a Docker container
+
+- `drmi` - Remove a Docker image
+
+- `drm` - Remove a stopped Docker container
+
+- `drmf` - Forcefully remove a Docker container
+
+- `dn` - Docker network CLI
+
+- `dnc` - Create a Docker network
+
+- `dnr` - Remove a Docker network
+
+- `dv` - Docker volume CLI
+
+- `dvc` - Create a Docker volume
+
+- `dvr` - Remove a Docker volume
+
+
+### Docker Monitoring Aliases
+- `dmstats` - Display real-time statistics of containers
+
+- `dmtop` - Display the running processes of a container
+
+- `dmlogs` - Show live logs of a container
+
+
+### Docker Container Aliases
+- `dcrun` - Create and start a new Docker container
+
+- `dcstart` - Start an existing Docker container
+
+- `dcstop` - Stop a running Docker container
+
+- `dckill` - Forcefully kill a running Docker container
+
+- `dcpause` - Pause a running Docker container
+
+- `dcunpause` - Unpause a paused Docker container
+
+- `dcrestart` - Restart a Docker container
+
+- `dcp` - Remove all stopped containers
+
+
+### Docker Image Aliases
+- `dicreate` - Create a new Docker image
+
+- `dipull` - Pull a Docker image from a registry
+
+- `dipush` - Push a Docker image to a registry
+
+- `dibuild` - Build a Docker image from a Dockerfile
+
+- `ditag` - Tag a Docker image
+
+- `diinspect` - Inspect a Docker image
+
+- `drmi` - Remove a Docker image
+
+- `dip` - Remove unused Docker images
+
+
+### Docker Network Aliases
+- `dnetls` - List Docker networks
+
+- `dnetinspect` - Inspect a Docker network
+
+
+### Docker Volume Aliases
+- `dvolls` - List Docker volumes
+
+- `dvolinspect` - Inspect a Docker volume
+
+- `dvolcreate` - Create a Docker volume
+
+- `dvr` - Remove a Docker volume
+
+
+### Docker Compose Aliases
+- `dc` - Docker Compose CLI
+
+- `dcu` - Start Docker Compose services
+
+- `dcd` - Stop Docker Compose services
+
+- `dcr` - Run a one-time command in a Docker Compose service
+
+- `dcev` - Execute command in a running Docker Compose service
+
+
+
+## Contribution
+If you have any suggestions or improvements, feel free to open an issue or create a pull request.
