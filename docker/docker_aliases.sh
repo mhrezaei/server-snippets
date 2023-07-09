@@ -126,7 +126,3 @@ d() {
   echo "dcr        - Run a one-time command in a Docker Compose service"
   echo "dcev       - Execute command in a running Docker Compose service"
 }
-
-# Set the aliases to be persistent
-echo "source ~/.bashrc" >> ~/.bash_profile
-source ~/.bashrc
